@@ -130,13 +130,12 @@
 	display:flex;
 	width:100%;
 	flex-direction: column;
-	height:85vh;
-	background-color: #eef3ee;
+	height:90vh;
 }
 	/* 主图展示 start */
 .content .exhibition{
 	width:100%;
-	height:360px;
+	height: 40vh;
 	overflow:hidden;
 	position:relative;
 }
@@ -147,4 +146,142 @@
 	transform : translateX(-50%);
 }
 	/* 主图展示 end */
+	/* 底部内容区 start */
+.content .bottom-content{
+	width:100%;
+	position: relative;
+	height:45vh;
+	background: linear-gradient(to bottom, #e9f0e9, #ffffff);
+	padding-bottom: 0;
+	margin-bottom:0;
+}
+		/* 口号 start */
+.content .bottom-content .slogan{
+	margin: 0 auto;
+	width:80%;
+	height:40px;
+	padding:11px;
+	border-bottom: 3px dotted #808080;
+	border-spacing:10px;
+	margin-bottom: 20px;
+}
+.content .bottom-content .slogan p{
+	display:flex;
+	justify-content: center; 
+	font-size: 27px;
+	font-weight: 600;
+	letter-spacing:3px;
+}
+		/* 口号 end */
+
+		/* 左侧展板 start */
+.content .bottom-content .sub-exhibition{
+	/* display:flex; */
+	position:relative;
+	float:left;
+	width:30%;
+	height:78%;
+	overflow:hidden;
+	margin: 8px 0 0 190px;
+	background-color: #616161;
+}
+.content .bottom-content .sub-exhibition img{
+	position:relative;
+	width:100%;
+	height:93%;
+}
+.content .bottom-content .sub-exhibition .exhibition-descrpition{
+	display: flex;
+	position:relative;
+	height:100px;
+	margin:0;
+}
+.content .bottom-content .sub-exhibition .exhibition-descrpition p{
+	color: #fff;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin-left:3px;
+	margin-right:0;
+	line-height: 13px;
+}
+.content .bottom-content .sub-exhibition .exhibition-descrpition ul{
+	position:absolute;
+	display: flex; 
+	list-style: none; 
+	right: 10px;
+}
+.content .bottom-content .sub-exhibition .exhibition-descrpition ul li button{
+	width: 8px;
+	height: 8px;
+	background-color: #cecece; /* 设置点的颜色 */
+	border-radius: 50%; /* 设置为圆形 */
+	margin-left: 10px; /* 设置点之间的间距 */
+	border:0;
+}
+.content .bottom-content .sub-exhibition .exhibition-descrpition ul #the-one button{
+	background-color: #ffffff;
+}
+.content .bottom-content .sub-exhibition .exhibition-descrpition ul li button:hover{
+	background-color: #ffffff;
+}
+		/* 左侧展板 end */
+
+		/* 右侧信息动态 start */
+.content .bottom-content .trends{
+	margin:0;
+	position:relative;
+	float:right;
+	width:50%;
+}
+			/*标题栏 start*/
+.content .bottom-content .trends .trends-title{
+	float:left;
+	width:80%;
+	height:50px;
+	border-bottom:2px dotted #808080;
+	padding-bottom: 8px;
+}
+.content .bottom-content .trends .trends-title p{
+	display: inline-block;
+	font-size: 30px;
+	font-weight: 540;
+
+}
+.content .bottom-content .trends .trends-title button{
+	
+	color:#fff;
+	background-color: #7ba37c;
+	border:0;
+	padding:3px 6px;
+	float:right;
+	margin-top: 5px;
+	margin-right:15px;
+	cursor: pointer;
+
+}
+			/*标题栏 end*/
+			/*信息区 start */
+.content .bottom-content .trends .message{
+	float:left;
+	width:80%;
+}
+
+.content .bottom-content .trends .message ul li{
+	margin-top:14px;
+	margin-left:30px;
+	color:#7ba37c;
+}
+.content .bottom-content .trends .message ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color:#000;
+}
+.content .bottom-content .trends .message ul li p{
+	float:right;
+	margin-right:20px;
+	color: #808080;
+}
+			/*信息区 end */
+		/* 右侧信息动态 end */
+	/* 底部内容区 end */
 /* 内容区 end*/
