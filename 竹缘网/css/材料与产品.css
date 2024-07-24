@@ -211,7 +211,7 @@
     padding: 15px 24px 0;
 	margin-left:38px;
     margin-right: 25px;
-	transition: all 0.2s linear; /* 浮动动画效果 */
+	transition: all 0.2s linear;
 	box-shadow: 0 15px 30px rgba(0,0,0,0.1);
 }
 .content .bottom-content .sub-exhibition .item:hover{
@@ -251,10 +251,10 @@
     color: #77874a;
 }
 .content .bottom-content .sub-exhibition .item ul li::after{
-    content: "√"; /* 打勾符号 */
+    content: "√"; 
     position: absolute;
-    font-size: 0.1em; /* 根据需要调整大小 */
-    line-height: 1em; /* 根据需要调整行高 */
+    font-size: 0.1em; 
+    line-height: 1em; 
     top:13px;
     left:5px;
     color: #77874a;

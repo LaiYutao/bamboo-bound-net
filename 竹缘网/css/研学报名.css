@@ -155,7 +155,8 @@ form{
 form button{
 	color:#fff;
 	font-size: 14px;
-	height:25px;
+	float:right;
+	height:26px;
 	width: 55px;
 	background-color: #7ba37c;
 	border:0px;
