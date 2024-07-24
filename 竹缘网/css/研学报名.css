@@ -130,12 +130,12 @@
 	display:flex;
 	width:100%;
 	flex-direction: column;
-	height:120vh;
+	height:95vh;
 }
 	/* 主图展示 start */
 .content .exhibition {
 	width:100%;
-	height:360px;
+	height:40vh;
 	overflow:hidden;
 	position:relative;
 }
@@ -216,8 +216,7 @@ form .search input{
 	color: black;
 }
 .item:hover{
-	transform:translateY(-2px);
-	
+	transform:translateY(-2px);	
 }
 .card{
 	width:310px;
@@ -240,7 +239,7 @@ form .search input{
 	border-radius:1.5em;
 }
 .progress-bar{
-	dispaly:flex;
+	display:flex;
 	width:250px;
 	height:10px;
 	background-color: #eeeeee;

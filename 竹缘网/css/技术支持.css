@@ -130,12 +130,12 @@
 	display:flex;
 	width:100%;
 	flex-direction: column;
-	height:125vh;
+	height:103vh;
 }
 	/* 主图展示 start */
 .content .exhibition{
 	width:100%;
-	height:360px;
+	height:40vh;
 	overflow:hidden;
 	position:relative;
 }
