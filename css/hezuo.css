@@ -199,9 +199,7 @@
 .content .bottom-content .item .box .icon:hover{
 	transform:translateY(-2px);	
 }
-.content .bottom-content .item .box #green{
-	border: 2px solid #7ba37c;
-}
+
 .content .bottom-content .item .box .icon img{
 	position: absolute;
 	left:50%;
